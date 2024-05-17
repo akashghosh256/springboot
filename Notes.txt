@@ -1,0 +1,60 @@
+https://start.spring.io/
+
+tomcat is server code but all client and server code is included in one  myapp.jar
+
+cmd = java -jar myapp.jar
+
+jar file = Java application
+War file = Java web application
+
+
+
+What are Interfaces in Java?
+The interface in Java is a mechanism to achieve abstraction. There can be 
+only abstract methods in the Java interface, not the method body. It is used to achieve abstraction and multiple inheritances in 
+Java using Interface. In other words, you can say that interfaces can have abstract methods and variables. It cannot have a 
+method body. Java Interface also represents the IS-A relationship. 
+
+
+CommandLineRunner is an interface that has run() method. Which is used to execute some code just after the spring boot application has started. 
+The main application should implement this interface and override its run method. In this run method, we write code like initializing 
+our database with some value or any other logic which should be executed just after the app starts.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
